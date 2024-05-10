@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    background-color: salmon;
+    border: 5px solid black;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+table{
+    text-align: center;
+    border: 5px solid black;
+    margin: auto;
+    font-size: 25px;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+}
+
+tr:nth-child(even){
+    background-color: yellow;
+}
+tr:nth-child(odd){
+    background-color: orange;
+}
